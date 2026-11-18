@@ -19,6 +19,8 @@
   .avatar { width:104px; height:104px; border-radius:50%; object-fit:cover; padding:3px; background:linear-gradient(135deg,var(--accent),var(--accent2)); }
   h1 { font-size:1.6rem; margin-top:14px; letter-spacing:.02em; }
   .bio { color:var(--muted); margin-top:6px; }
+  .contact { display:inline-block; margin-top:18px; padding:10px 22px; border-radius:999px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff; font-weight:700; text-decoration:none; transition:transform .15s, box-shadow .15s; }
+  .contact:hover, .contact:focus-visible { transform:translateY(-2px); box-shadow:0 6px 24px #8b5cf660; outline:2px solid #fff; outline-offset:2px; }
   ul { list-style:none; padding:0; margin-top:32px; display:grid; gap:12px; }
   a.link {
     display:flex; align-items:center; gap:14px; padding:14px 18px; border-radius:14px;
@@ -38,6 +40,7 @@
   <img class="avatar" src="avatar.jpg" alt="Geekozor">
   <h1>Geekozor</h1>
   <p class="bio">Le Roi du Gaming juge vos jeux. Sans pitié. Bisous 👑</p>
+  <a class="contact" href="mailto:geekozorpro@gmail.com?subject=Partenariat%20Geekozor">✉️ Contact pro</a>
 
   <ul>
     <li><a class="link" href="https://www.tiktok.com/@geekozor" target="_blank" rel="noopener">
