@@ -28,6 +28,8 @@
     transition:transform .15s, border-color .15s, box-shadow .15s;
   }
   a.link:hover, a.link:focus-visible { transform:translateY(-2px); border-color:var(--accent); box-shadow:0 6px 24px #8b5cf640; outline:none; }
+  a.link.gold { border:2px solid transparent; background:linear-gradient(var(--card),var(--card)) padding-box, linear-gradient(135deg,#f5d77a,#b8860b 35%,#fff1b8 55%,#c9971c 80%,#f5d77a) border-box; box-shadow:0 0 18px #e6b84a40; }
+  a.link.gold:hover, a.link.gold:focus-visible { border-color:transparent; box-shadow:0 6px 28px #e6b84a80; }
   .ico { width:36px; height:36px; flex:none; border-radius:10px; display:grid; place-items:center; }
   .ico svg { width:20px; height:20px; fill:#fff; }
   .label { flex:1; text-align:left; }
@@ -42,7 +44,7 @@
   <p class="bio">Le Roi du Gaming juge vos jeux. Sans pitié. Bisous 👑</p>
 
   <ul>
-    <li><a class="link" href="https://geekozor.github.io/jeux-gratuits/">
+    <li><a class="link gold" href="https://geekozor.github.io/jeux-gratuits/">
       <img class="ico" src="jeux-gratuits.png" alt="">
       <span class="label">Les jeux gratuits de Geekozor<small>Tous les jeux offerts du moment</small></span></a></li>
 
